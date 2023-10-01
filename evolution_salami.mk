@@ -17,6 +17,7 @@ $(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 EXTRA_UDFPS_ANIMATIONS := true
 TARGET_SUPPORTS_QUICK_TAP := true
+EVO_BUILD_TYPE := BETA
 
 PRODUCT_NAME := evolution_salami
 PRODUCT_DEVICE := salami
